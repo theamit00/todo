@@ -22,7 +22,7 @@ const initialState = [
 ]
 
 // Saving initial state to localStorage
-setLocalStorageItem(initialState);
+// setLocalStorageItem(initialState);
 
 // Creating a Redux slice for todos
 const todoSlice = createSlice({
