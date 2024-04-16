@@ -1,5 +1,6 @@
 
 # TODO
+Link : 
 
 ## Description
 
@@ -10,7 +11,7 @@ Develop a basic To-Do application using ReactJS that allows users to add, view, 
  1. Clone the repository:
 
 ```bash
-  git clone https://github.com/username/repository.git
+  git clone https://github.com/theamit00/todo.git
 ```
 2. Navigate to the project directory:
 
