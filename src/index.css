@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+}
+
+.btn{
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.single-task{
+    border: 1px solid gray;
+    transition: all 0.3s ease-in-out;
+}
+
+.single-task:hover{
+    transform: scale(1.025);
+    transition: all 0.3s ease-in-out;
+}
+
+.delete{
+    background:transparent;
+    /* border-radius: 50%; */
+    transition: all 0.3s ease-in-out;
+}
+
+.delete:hover{
+    background-color: rgb(205, 9, 9);
+    color: white;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
